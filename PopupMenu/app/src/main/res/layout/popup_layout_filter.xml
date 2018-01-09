@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <CheckedTextView
+        android:id="@+id/textViewEndingSoonest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:checkMark="?android:attr/textCheckMark"
+        android:checked="true"
+        android:clickable="true"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:text="B"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+
+    <CheckedTextView
+        android:id="@+id/textViewHighestPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:checkMark="?android:attr/textCheckMark"
+        android:checked="true"
+        android:clickable="true"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:text="C"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+
+    <CheckedTextView
+        android:id="@+id/textViewPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackground"
+        android:checkMark="?android:attr/textCheckMark"
+        android:checked="true"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="A" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:text="Close" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    </GridLayout>
+
+</LinearLayout>
